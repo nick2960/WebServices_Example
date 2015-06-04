@@ -1,0 +1,115 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="com.example.nicols.webservices_example.MainActivity"
+    android:background="@color/green">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:gravity="center_vertical">
+
+        <EditText
+            android:id="@+id/n"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/bright_foreground_disabled_material_light"
+            android:textColor="@color/black"
+            android:hint="@string/n"
+            android:inputType="number"
+            android:layout_weight="0.3">
+
+            <requestFocus />
+        </EditText>
+
+        <EditText
+            android:id="@+id/d"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/bright_foreground_disabled_material_light"
+            android:textColor="@color/black"
+            android:hint="@string/d"
+            android:inputType="number"
+            android:layout_weight="0.3"/>
+
+        <EditText
+            android:id="@+id/h"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColorHint="@color/bright_foreground_disabled_material_light"
+            android:textColor="@color/black"
+            android:hint="@string/h"
+            android:inputType="number"
+            android:layout_weight="0.3"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal">
+
+        <TextView
+            android:id="@+id/tresultado"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            android:text="@string/sesperando" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="100sp"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/botonCalcular"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sJsonRequest"
+            android:background="@color/greenyellow"/>
+
+        <Button
+            android:id="@+id/calcular"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:text="@string/sStringRequest"
+            android:background="@color/greenyellow"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:id="@+id/idMyimagen"
+            android:contentDescription="@string/sImagenInicial"
+            android:layout_width="200dp"
+            android:layout_height="200dp"
+            android:layout_marginBottom="16dp"/>
+
+        <Button
+            android:id="@+id/buttoncargarImagen"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/scargarImagen"
+            android:background="@color/greenyellow"
+            android:layout_gravity="center"/>
+
+    </LinearLayout>
+    </LinearLayout>
+
+</ScrollView>

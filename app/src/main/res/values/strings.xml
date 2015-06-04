@@ -1,0 +1,15 @@
+<resources>
+    <string name="app_name">WebServices_Example</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="scargarImagen">Cargar Imagen</string>
+    <string name="sJsonRequest">JsonRequest</string>
+    <string name="sStringRequest">StringRequest</string>
+    <string name="sesperando">Esperando</string>
+    <string name="sImagenInicial">Imagen Inicial</string>
+
+    <string name="n">Numeros</string>
+    <string name="d">Desde</string>
+    <string name="h">Hasta</string>
+</resources>
